@@ -1,0 +1,14 @@
+{
+  "name": "@guozn/luffy",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^5.1.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "lerna clean && rimraf node_modules package-lock.json yarn.lock",
+    "init": "lerna bootstrap"
+  }
+}

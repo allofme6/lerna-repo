@@ -1,0 +1,22 @@
+{
+  "name": "@guozn/luffy-us",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "guozhenning <guozhenning@xdf.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/us.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://114.116.119.54:8888/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

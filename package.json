@@ -2,6 +2,8 @@
   "name": "@guozn/luffy",
   "private": true,
   "devDependencies": {
+    "dumi": "^1.1.42",
+    "dumi-theme-mobile": "^1.1.22",
     "lerna": "^5.1.4"
   },
   "workspaces": [
@@ -9,6 +11,8 @@
   ],
   "scripts": {
     "clean": "lerna clean && rimraf node_modules package-lock.json yarn.lock",
-    "init": "lerna bootstrap"
+    "init": "lerna bootstrap",
+    "deploy": "dumi build",
+    "docs": "dumi dev"
   }
 }

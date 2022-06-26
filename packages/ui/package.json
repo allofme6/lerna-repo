@@ -14,9 +14,10 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://114.116.119.54:8888/"
+    "registry": "https://npm.guozn.top/"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "8e51354b581ef86e342bd9f165356b5fabbc697b"
 }
